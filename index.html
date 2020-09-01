@@ -2,18 +2,34 @@
     <head>
         <meta charset="UTF-8">
         <title> Susteasy </title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon"  type="image/png" href="imgs/logoSust.png">
+        <script src="main.js"></script>
     </head>
     <body>
-        <form>
-            <h1> Preencha o formulário abaixo: </h1> <br><br>
-            <h2> Qual o tamanho da sua plantação em hectares? </h2> <input placeholder="Exemplo: 1 há"> <br><br>
-            <h2> Qual a quantidade de plantas desejadas por hectare? </h2> <input placeholder="Exemplo: 10 plantas por hectare">
-            <h2> Qual o número de plantas por metro linear </h2> <input placeholder="Exemplo: 10 cm">
-            <h2> Qual a quantidade de sementes por metro linear </h2> <input placeholder="Exemplo: 20 plantas por metro">
-            <h2> Qual o poder germinativo de sua planta? </h2> <input placeholder="Exemplo: 10">
-            <h2> Qual a quantidade de metros lineares? </h2> <input placeholder="Exemplo: 10 m a linha">
-            <h2> Qual o peso de mil sementes? </h2> <input placeholder="Exemplo: 100 kg">
-            <h2> Qual o número de sementes por hectare? </h2> <input placeholder="Exemplo: 1000 sementes">
-        </form>
+        <header>
+            <div id="container" >
+               <img src="imgs/logo2sust.png" id="sustL" alt="">
+                <nav id="navbarN">
+                    <a href="">Inicio</a>
+                    <a href="">Veja mais </a>
+                    <a href="">Previsão</a>
+                   
+                   
+                </nav>
+         
+
+        </header>
+        <div id="container2">
+            <div>
+            <h1 class="ped"> Preencha o formulário abaixo: </h1> <br><br>
+            </div>
+            <div id="p1"> Qual o tamanho da sua plantação em hectares? </div>
+            <br>
+            <input class="par1"  type="number"   id="per1" placeholder="Este campo aceita apenas números!"> 
+            <br>
+            <br>
+            <button class="next" onclick="nextQ()" >Próximo</button>
+        </div>
     </body>
 </html>
