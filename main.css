@@ -1,7 +1,96 @@
-body {background-color: black;}
-h1 {color: yellow;
-text-align: center;
-font-style: arial;}
-h2 {color: yellow;
-text-align: center;
-font-style: arial;}
+body {
+    background-color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#p1 {
+    color: #f1ec40;
+    text-align: center;
+    font-style: arial;
+    font-size: 20px;
+}
+.ped { 
+    color: #f1ec40;
+    text-align: center;
+    font-style: arial; 
+}
+.par1{
+  
+   
+     background:transparent ;
+  
+     width: 400px;
+     border-bottom:solid 1px #AAA;
+     border-top: transparent;
+     border-left:transparent ;
+     border-right: transparent;
+     color: yellow;
+}
+.par1:focus{
+    outline: 0;
+}
+#plant{
+   font-size: 12px;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+#navbarN a{ 
+      color: #f1ec40;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 10px;
+     
+      user-select: none;
+
+}
+#navbarN{
+    user-select: none;
+ 
+    
+
+
+}
+#navbarN a:hover{
+       color: yellow;
+       transition: 0.1s;
+
+
+}
+#sustL{
+   width: 200px;
+   user-select: none;
+   pointer-events: none;
+
+
+}
+.next{
+    background: transparent;
+     color: yellow;
+     border: solid 1px yellow;
+     width: 120px;
+     margin-right: 15px;
+     padding: 10px 25px;
+     cursor: pointer;
+     
+
+}
+.next:focus{
+   outline: 0;
+
+}
+.next:hover{
+     background-color: yellow;
+     color: #000000;
+     transition: 0.5s;
+
+}
+#container2{
+   text-align: center;
+
+}
