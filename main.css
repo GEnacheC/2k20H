@@ -19,8 +19,67 @@ body {
       font-size: 25px;
       position: absolute;
       top: 100px;
-      left: 370px;
+      left: 300px;
+}
+
+#container5{ 
+      width:1350px ;
+      height: 520px;
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-size: 1335px;
       
+
+}
+#imgbg{
+    width: 1350px;
+    user-select: none;
+    height: 520px;
+    pointer-events: none;
+    position: relative;
+
+}
+
+#imgs{
+   width: 1350px;
+   height: 520px;
+   right: -8px;
+   user-select: none;
+   z-index: 9;
+   pointer-events: none;
+   position: absolute;
+ 
+
+}
+#tFS{
+   color: white;
+   font-size: 50px;
+   position: absolute;
+   user-select: none;
+   pointer-events: none;
+   z-index: 10;
+   left: 100px;
+   top: 40px;
+}
+#container6{
+     color: #f1ec40;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     position: relative;
+     left: 220px;
+     user-select: none;
+
+
+}
+#txtFS{
+   position:absolute;
+   user-select: none;
+   pointer-events: none;
+   z-index: 10;
+   top: 110px;
+   left: 100px;
+   color: white;
+   font-size: 25px;
 
 }
 .par1{
